@@ -1,0 +1,57 @@
+﻿<Window x:Class="WPF_Student.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Student"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        Background="Transparent"
+        Height="450"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Width="350">
+    <Grid>
+        <Border Background="#2c2b2e"
+         CornerRadius="15"/>
+
+        <Grid>
+            <Button Content="Таблица (Специальности)" Height="50"
+                    Width="250"
+                    Margin="40"
+                    Background="#00a2ff"
+                    BorderBrush="#00a2ff"
+                    VerticalAlignment="Top" Click="Button_Click"/>
+        </Grid>
+        <Grid>
+            <Button Content="Таблица (Предметы)"
+                    Height="50"
+                    Width="250"
+                    Background="#00a2ff"
+                    BorderBrush="#00a2ff"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Center"
+                    Margin="0,136,0,0" Click="Button_Click_1"/>
+        </Grid>
+        <Grid>
+            <Button Content="Таблица (Студенты)"
+              Height="50"
+              Width="250"
+              Background="#00a2ff"
+              BorderBrush="#00a2ff"
+              VerticalAlignment="Top"
+              HorizontalAlignment="Center"
+              Margin="0,225,0,0" Click="Button_Click_2"/>
+        </Grid>
+        <Grid>
+         <Button Content="Таблица (Оценки)"
+          Height="50"
+          Background="#00a2ff"
+          BorderBrush="#00a2ff"
+          Width="250"
+          VerticalAlignment="Stretch"
+          HorizontalAlignment="Center"
+          Margin="0,225,0,0" Click="Button_Click_3"/>
+        </Grid>
+    </Grid>
+</Window>
